@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+  }
+
+  a {   
+    text-decoration: none;
+ }
+
+
+section{
+     margin-bottom: 24px; 
+
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+     display: flex;
+     
+     align-items: center; 
+     flex-wrap: wrap;
+     justify-content: space-between;
+   
+}
+
+header {
+        padding: 15px 0;
+        background: #362b2b0d;
+     margin-bottom: 24px;
+    justify-content: space-between;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+    background-color: orange;
+    
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-left: 330px;
+}
+
+.navbar li {
+    list-style: none;
+
+    padding: 21px 28px;
+}
+
+.navbar{
+  
+}
+.left{
+    background-color: rgb(94, 218, 94);
+    width: 50%;
+    height: 405px;
+    
+}
+.right{
+
+    width: 50%;
+     display: flex;
+   flex-wrap: wrap;
+}
+
+.one{
+    width: 45%;
+    height: 190px;
+    background-color: rgb(125, 210, 221);
+
+    margin-bottom: 25px;
+}
+    
+.two{
+    width: 45%;
+    height: 190px;
+    background-color: rgb(226, 105, 105);
+    
+    margin-bottom: 25px;
+}
+.three{
+    width: 45%;
+    height: 190px;
+    background-color: yellow;
+    
+}
+
+.four{
+    width: 45%;
+    height: 190px;
+    background-color: purple;
+    
+}
+
+.margin-left{
+    margin-left: 25px;
+    
+}
+.margin-right{
+    margin-right:25px ;
+}
+
+footer{
+        
+        background: #362b2b0d;
+        height: 60px;
+        
+        width: 100%;
+        display: flex;
+   flex-wrap: wrap;
+}
+
+
+.box {
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.boxes{
+     
+    width:100px;
+    height: 60px;
+    background-color: rgb(204, 59, 43);
+   
+    margin-right: 6px;
+
+}
+
+
+
+.box-three{ 
+    width: 60px;
+    height: 60px;
+    
+}
+.box-four{
+  width: 30px;
+ height: 60px;  
+}
+
+
+
+img{
+
+    max-width: 100%;
+}
+
+.marks{
+    display: flex;
+   flex-wrap: wrap;
+}
+
+
+
+.marks img{
+width: 50px;
+height: 50px;
+      
+}
